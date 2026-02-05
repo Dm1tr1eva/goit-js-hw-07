@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  row-gap: 48px;
+}
+
+.gallery_item {
+  width: calc((100% - 50px) / 3);
+}
+
+.gallery_image {
+  height: 100%;
+}
